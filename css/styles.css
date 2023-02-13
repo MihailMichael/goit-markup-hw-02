@@ -29,6 +29,7 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 31px;
+  letter-spacing: 0.03em;
   color: #2196f3;
   text-decoration: none;
 }
@@ -120,9 +121,20 @@ body {
   letter-spacing: 0.03em;
   color: #ffffff;
 }
+.mark-botton {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
 .mark-botton:hover,
 .mark-botton:focus {
   color: #ffffff;
+  background: #2196f3;
+  border-color: #2196f3;
   background: #2196f3;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
@@ -153,6 +165,10 @@ body {
 .contact-adress:hover,
 .contact-adress:focus {
   color: #2196f3;
+}
+.link-porto {
+  color: #212121;
+  text-decoration: none;
 }
 .link-porto:hover,
 .link-porto:focus {
