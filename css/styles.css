@@ -23,7 +23,8 @@ body {
   content: "Studio";
   color: black;
 }
-.logo {
+.logo,
+.logo-footer {
   font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
@@ -32,6 +33,10 @@ body {
   letter-spacing: 0.03em;
   color: #2196f3;
   text-decoration: none;
+}
+.logo-footer::after {
+  content: "Studio";
+  color: #ffffff;
 }
 .link {
   text-decoration: none;
