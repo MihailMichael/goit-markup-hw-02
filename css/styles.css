@@ -38,10 +38,9 @@ body {
 }
 .link:hover,
 .link:focus {
-  background-color: blue;
-  color: chartreuse;
-  border-radius: 5px;
+  color: #2196f3;
 }
+
 .first-section {
   background: #2f303a;
 }
@@ -60,18 +59,16 @@ body {
   line-height: 30px;
   letter-spacing: 0.06em;
   color: #ffffff;
-  background-color: blue;
-  border-radius: 25px;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
 }
 .second-section {
   font-size: 14px;
   letter-spacing: 0.03em;
   background-color: #e5e5e5;
 }
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
+
 .title-list {
   font-weight: 700;
   line-height: 16px;
@@ -114,18 +111,50 @@ li {
   background: #2f303a;
 }
 .list-botton {
+  font-family: "Roboto";
+  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 26px;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: #ffffff;
 }
 .mark-botton:hover,
-.mark-botton:focus,
-.botton-request:hover,
-.botton-request:focus {
-  background-color: blue;
-  color: chartreuse;
-  border-radius: 8px;
+.mark-botton:focus {
+  color: #ffffff;
+  background: #2196f3;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+}
+.pozi-adress {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  text-decoration: none;
+}
+.contact-adress {
+  text-decoration: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.pozi-adress:hover,
+.pozi-adress:focus,
+.contact-adress:hover,
+.contact-adress:focus {
+  color: #2196f3;
+}
+.link-porto:hover,
+.link-porto:focus {
+  color: #ffffff;
 }
