@@ -38,7 +38,9 @@ body {
 }
 .link:hover,
 .link:focus {
-  color: greenyellow;
+  background-color: blue;
+  color: chartreuse;
+  border-radius: 5px;
 }
 .first-section {
   background: #2f303a;
@@ -100,7 +102,6 @@ li {
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 0.03em;
-  letter-spacing: 0.03em;
   color: #212121;
 }
 .specialty {
@@ -111,4 +112,20 @@ li {
 }
 .page-footer {
   background: #2f303a;
+}
+.list-botton {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.mark-botton:hover,
+.mark-botton:focus,
+.botton-request:hover,
+.botton-request:focus {
+  background-color: blue;
+  color: chartreuse;
+  border-radius: 8px;
 }
