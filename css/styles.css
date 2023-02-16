@@ -167,8 +167,8 @@ body {
 }
 .pozi-adress:hover,
 .pozi-adress:focus,
-.contact-adress:hover,
-.contact-adress:focus {
+.contact-adress-info:hover,
+.contact-adress-info:focus {
   color: #2196f3;
 }
 .link-porto {
